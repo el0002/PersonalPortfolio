@@ -1,24 +1,24 @@
 
 <script lang='ts'>
   import "../app.css";
-  import Profile from "$lib/assets/akolangto.png"
-  import Dlsu from "$lib/assets/dlsu.png"
-  import Pts from "$lib/assets/pts.png"
+  import Profile from "$/lib/assets/akolangto.png"
+  import Dlsu from "$/lib/assets/dlsu.png"
+  import Pts from "$/lib/assets/pts.png"
   
-  import Arrow from "$lib/assets/arrow.png"
+  import Arrow from "$/lib/assets/arrow.png"
 
-  import Github from "$lib/assets/github.png"
-  import Linkedin from "$lib/assets/linkedin.png"
+  import Github from "$/lib/assets/github.png"
+  import Linkedin from "$/lib/assets/linkedin.png"
 
-  import React from "$lib/assets/react.png"
-  import Svelte from "$lib/assets/svelte.png"
-  import Next from "$lib/assets/next.png"
+  import React from "$/lib/assets/react.png"
+  import Svelte from "$/lib/assets/svelte.png"
+  import Next from "$/lib/assets/next.png"
 
-  import Lbyarch from "$lib/assets/lbyarch.png"
-  import Prog2 from "$lib/assets/prog2.png"
+  import Lbyarch from "$/lib/assets/lbyarch.png"
+  import Prog2 from "$/lib/assets/prog2.png"
 
   import { goto } from '$app/navigation';
-    import { DEV_MIDDLEWARE_MANIFEST } from "next/dist/shared/lib/constants";
+
 
   function routeToPage(route: string, replaceState: boolean) {
     goto(`/${route}`, { replaceState }) 
