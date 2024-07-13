@@ -30,12 +30,11 @@
   <div id="Home">
     <div class="flex flex-row justify-center mr-8 mb-0 mt-16">
       <div class="flex flex-row mt-16 mr-6">
-        <img src={Github} alt="" class="w-20 h-20">
-        <img src={Linkedin} alt="" class="w-16 h-16 mt-2">
+        
       </div>
       
       <div><img src={Profile} alt="" class="w-80  mt-12"></div>
-      <button on:click={() => routeToPage("projects",true)} class="font-imenglish' text-center mt-4 ml-10 text-4xl pt-16 h-7"> Projects </button>
+      
     </div>
   
     <div class="flex flex-col items-center mb-52">
