@@ -115,21 +115,7 @@
         statistics involved in the shopping system.
       </span>
     </div>
-
-    <div class="flex flex-col items-center">
-      <span class="text-3xl mb-7">
-        RGB to Grayscale Array with x86_64 Assembly
-      </span>
-      <img src={Lbyarch} alt="" class="w-3/6 mb-7">
-      <span class="font-imenglish text-2xl text-center w-2/3 mb-20">
-        This program includes interfacing with C which calls x86_64 Assembly code for processing, 
-        which converts colored RGB image to grayscale with given 3-d grid of pixels and outputs a 
-        converted 2-d array of values
-      </span>
-    </div>
-    
-
-    
+  
   </div>
 
     
